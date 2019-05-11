@@ -1,0 +1,28 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "react/require-extension": "off",
+        "linebreak-style": 0,
+        "arrow-body-style": 0,
+        "max-len": 0,
+        "import/no-unresolved": "off",
+        "import/no-extraneous-dependencies": "off"
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "settings": {
+        "eslint-plugin-disable": {
+            "paths": {
+                "*": [
+                    "*"
+                ]
+            }
+        }
+    }
+}
